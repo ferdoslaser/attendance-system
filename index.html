@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سیستم حضور و غیاب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>سیستم حضور و غیاب</h1>
+        
+        <!-- فرم ورود نام کاربر -->
+        <div class="form">
+            <input type="text" id="username" placeholder="نام خود را وارد کنید">
+            <button onclick="registerAttendance()">ثبت حضور</button>
+        </div>
+
+        <!-- لیست حضور و غیاب -->
+        <div class="attendance-list">
+            <h2>لیست حضور و غیاب</h2>
+            <ul id="attendanceRecords"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
